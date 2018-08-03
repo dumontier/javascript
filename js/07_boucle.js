@@ -101,7 +101,7 @@ combien de temps me faut-il pour avoir 2000€ sur mon compte ?
 
 // <p>Ecrivez un programme qui invite l'utilisateur à saisir un nombre jusqu'à ce que ce nombre soit supérieur à 50 ET inférieur à 100.</p>    <p>Réfléchissez bien à la condition de votre boucle : quel est l'inverse de "compris entre 50 et 100" ?</p>
 
-var nombre = prompt("Entrez un nombre entre 50 et 100");
+var nombre = 0;
 while (nombre < 50 || nombre > 100) {
-    nombre = parseInt(prompt("Entrez un nombre entre 50 et 100"))
+    nombre = parseInt(prompt("Entrez un nombre entre 50 et 100"));
 }
