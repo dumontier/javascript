@@ -36,4 +36,19 @@ for (var i = 1; i < tr; i += 1) {
 // }  
 
 /* 2 -- boucle For */
+
+var question = parseInt(prompt("Combien de tour tu fais ?"));
+for (var tour = 1; tour <= question; tour++){
+    document.write("tour de manège n° " + tour + "<br>");
+}
+document.write("<hr>");
+
 /* 2 -- boucle WHILE */
+
+var combien = parseInt(prompt("Combien de tours ?"));
+var compteur = 1;
+while (compteur <= combien) {
+    document.write("tu as fait " + compteur + " tours de manège<br>");
+    compteur++;
+}
+document.write("<hr>");
